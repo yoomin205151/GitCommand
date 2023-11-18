@@ -1,0 +1,52 @@
+<!-- Configurar el nombre de usuario: -->
+git config --global user.name "Tu Nombre"
+
+<!-- Configurar la dirección de correo electrónico: -->
+git config --global user.email "tu@email.com"
+
+<!-- Puedes verificar que la configuración se haya realizado correctamente ejecutando: -->
+git config --global --list
+
+<!-- Inicia un nuevo repositorio Git en un directorio existente o inicializa uno nuevo. -->
+git init
+
+<!-- Clona un repositorio existente en un nuevo directorio. -->
+git clone <URL_del_repositorio>
+
+<!-- Añade cambios al área de preparación (staging area) para ser incluidos en el próximo commit. -->
+git add <nombre_del_archivo>
+
+<!-- Para añadir todos los archivos modificados: -->
+git add .
+
+<!-- Registra los cambios en el repositorio. -->
+git commit -m "Mensaje del commit"
+
+<!-- Muestra el estado de los cambios en el repositorio. -->
+git status
+
+<!-- Obtiene cambios desde un repositorio remoto y los fusiona con el repositorio local. -->
+git pull origin <rama>
+
+<!-- Sube cambios locales al repositorio remoto. -->
+git push origin <rama>
+
+<!-- Lista todas las ramas en el repositorio. -->
+git branch
+
+<!-- Cambia a otra rama. -->
+git checkout <nombre_de_la_rama>
+
+<!-- Para crear y cambiar a una nueva rama: -->
+git checkout -b <nombre_de_la_rama>
+
+<!-- Fusiona una rama con la rama actual. -->
+git merge <nombre_de_la_otra_rama>
+
+<!-- Muestra el historial de commits. -->
+git log
+
+
+
+
+
